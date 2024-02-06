@@ -1,0 +1,1 @@
+get_sector_avg("Technology")

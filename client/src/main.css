@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Hedvig+Letters+Serif:opsz@12..24&family=Philosopher&family=Raleway:wght@200&display=swap');
+.main-img {
+    float: right;
+    padding:20px;
+    width:50%;
+    max-width: 500px;
+    height:50%
+
+}
+.founder-img {
+    float: right;
+    padding:20px;
+    width:10%;
+    
+}
+.main-container {
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+.main-container p {
+    margin: auto auto;
+    font-family: 'Philosopher';
+    font-weight: 700;
+    font-size: 15px;
+}
+.visions {
+    margin: auto 0;
+}
+.visions li{
+    list-style: none;
+    padding:5px;
+    margin-top: 5px;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap:10px;
+}
+.mission-container {
+    padding:20px;
+    color:whitesmoke;
+    text-align: justify;
+}
+@media (max-width:800px) {
+    .main-container {
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container p {
+        text-align: center;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        gap:10px
+    }
+}
